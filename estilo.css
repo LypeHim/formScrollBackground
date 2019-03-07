@@ -59,7 +59,8 @@ body{
 			outline:none;			
 			white-space:80px;}
 	
-.btn{	background:none;
+.login-caixa input[type="button"]{
+		background:none;
 		border: 2px solid #4C78AB;
 		color:white;
 		cursor:pointer;
@@ -67,7 +68,7 @@ body{
 		padding:5px;
 		width:100%;}
 	
-		.btn:hover{
+		.login-caixa input[type="button"]:hover{
 			background-image: linear-gradient(to right, blue, #4C78AB);
 			transition-timing-function: linear;}
 	
@@ -81,24 +82,20 @@ body{
 			height:100vh;
 			position:sticky;
 			top:0;
-			width:100%;}
+			width:100%;
+			background-size:cover;}
 	
 			.container .section:nth-child(1){
-				background:url(img/mark-c-nappy-.jpg);
-				background-size:cover;}
+				background:url(img/mark-c-nappy-.jpg);}
 			
 			.container .section:nth-child(2){
-				background:url(img/nahashondiaz-nappy-.jpg);
-				background-size:cover;}
+				background:url(img/nahashondiaz-nappy-.jpg);}
 			
 			.container .section:nth-child(3){
-				background:url(img/rawpixel-com-nappy-.jpg);
-				background-size:cover;}
+				background:url(img/rawpixel-com-nappy-.jpg);}
 			
 			.container .section:nth-child(4){
-				background:url(img/tolu-bamwo-nappy-.jpg);
-				background-size:cover;}
+				background:url(img/tolu-bamwo-nappy-.jpg);}
 				
 			.container .section:nth-child(5){
-				background:url(img/vaycarious-nappy-.jpg);
-				background-size:cover;}
+				background:url(img/vaycarious-nappy-.jpg);}
