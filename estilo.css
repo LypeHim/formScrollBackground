@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:sans-serif;
+	margin:0;
+	padding:0;}
+
+	.login-caixa{
+		background-color:#000000;
+		border:2px solid #4C78AB;
+		border-radius:5px;
+		color:white;
+		filter:opacity(75%);
+		left:50%;
+		padding:15px;		
+		position:fixed;
+		top:50%;		
+		transform:translate(-50%,-50%);
+		width:280px;
+		z-index:9999;}
+		
+		div.msg1, div.msg2{			
+			display:inline;
+			font-size: 14px;
+			font-weight: bolder;}
+			
+			.msg1{color: #f00;}
+			.msg2{color:forestgreen;}
+
+		.login-caixa h1{
+			border-bottom:6px solid #4C78AB;
+			font-size:40px;
+			float:left;
+			margin-bottom:50px;
+			padding:13px 0;
+			width: 100%;}
+	
+	.texto-caixa{
+		border-bottom:1px solid #4C78AB;
+		font-size:20px;
+		margin: 8px 0;
+		overflow:hidden;		
+		padding:8px 0;		
+		width:100%;}
+	
+		.texto-caixa i{
+			float:left;
+			text-align:center;
+			width:26px;}
+		
+		.texto-caixa input{
+			background:none;
+			border:none;
+			color:white;
+			font-size:18px;
+			float:left;
+			margin:0 10px;
+			outline:none;			
+			white-space:80px;}
+	
+.btn{	background:none;
+		border: 2px solid #4C78AB;
+		color:white;
+		cursor:pointer;
+		font-size:18px;
+		padding:5px;
+		width:100%;}
+	
+		.btn:hover{
+			background-image: linear-gradient(to right, blue, #4C78AB);
+			transition-timing-function: linear;}
+	
+	.container{
+		position:relative;
+		width:100%;}
+	
+		.container .section{
+			background-color:#000;
+			filter:brightness(75%);
+			height:100vh;
+			position:sticky;
+			top:0;
+			width:100%;}
+	
+			.container .section:nth-child(1){
+				background:url(img/mark-c-nappy-.jpg);
+				background-size:cover;}
+			
+			.container .section:nth-child(2){
+				background:url(img/nahashondiaz-nappy-.jpg);
+				background-size:cover;}
+			
+			.container .section:nth-child(3){
+				background:url(img/rawpixel-com-nappy-.jpg);
+				background-size:cover;}
+			
+			.container .section:nth-child(4){
+				background:url(img/tolu-bamwo-nappy-.jpg);
+				background-size:cover;}
+				
+			.container .section:nth-child(5){
+				background:url(img/vaycarious-nappy-.jpg);
+				background-size:cover;}
