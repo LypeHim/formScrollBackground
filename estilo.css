@@ -59,7 +59,8 @@ body{
 			outline:none;			
 			white-space:80px;}
 	
-.btn{	background:none;
+.login-caixa input[type="button"]{
+		background:none;
 		border: 2px solid #4C78AB;
 		color:white;
 		cursor:pointer;
@@ -67,7 +68,7 @@ body{
 		padding:5px;
 		width:100%;}
 	
-		.btn:hover{
+		.login-caixa input[type="button"]:hover{
 			background-image: linear-gradient(to right, blue, #4C78AB);
 			transition-timing-function: linear;}
 	
