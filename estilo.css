@@ -1,6 +1,3 @@
-@charset "utf-8";
-/* CSS Document */
-
 body{
 	font-family:sans-serif;
 	margin:0;
@@ -9,23 +6,23 @@ body{
 	.login-caixa{
 		background-color:#000000;
 		border:2px solid #4C78AB;
-		border-radius:5px;
+		border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
 		color:white;
-		filter:opacity(75%);
+		filter:opacity(75%); -webkit-filter:opacity(75%);
 		left:50%;
 		padding:15px;		
 		position:fixed;
 		top:50%;		
-		transform:translate(-50%,-50%);
+		transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%);
 		width:280px;
 		z-index:9999;}
 		
 		div.msg1, div.msg2{			
 			display:inline;
-			font-size: 14px;
-			font-weight: bolder;}
+			font-size:14px;
+			font-weight:bolder;}
 			
-			.msg1{color: #f00;}
+			.msg1{color:#f00;}
 			.msg2{color:forestgreen;}
 
 		.login-caixa h1{
@@ -34,43 +31,43 @@ body{
 			float:left;
 			margin-bottom:50px;
 			padding:13px 0;
-			width: 100%;}
+			width:100%;}
 	
-	.texto-caixa{
-		border-bottom:1px solid #4C78AB;
-		font-size:20px;
-		margin: 8px 0;
-		overflow:hidden;		
-		padding:8px 0;		
-		width:100%;}
+		.texto-caixa{
+			border-bottom:1px solid #4C78AB;
+			font-size:20px;
+			margin:8px 0;
+			overflow:hidden;		
+			padding:8px 0;		
+			width:100%;}
 	
-		.texto-caixa i{
-			float:left;
-			text-align:center;
-			width:26px;}
+			.texto-caixa i{
+				float:left;
+				text-align:center;
+				width:26px;}
 		
-		.texto-caixa input{
-			background:none;
-			border:none;
-			color:white;
-			font-size:18px;
-			float:left;
-			margin:0 10px;
-			outline:none;			
-			white-space:80px;}
+			.texto-caixa input{
+				background:none;
+				border:none;
+				color:white;
+				font-size:18px;
+				float:left;
+				margin:0 10px;
+				outline:none;			
+				white-space:80px;}
 	
-.login-caixa input[type="button"]{
-		background:none;
-		border: 2px solid #4C78AB;
-		color:white;
-		cursor:pointer;
-		font-size:18px;
-		padding:5px;
-		width:100%;}
+		.login-caixa input[type="button"]{
+				background:none;
+				border:2px solid #4C78AB;
+				color:white;
+				cursor:pointer;
+				font-size:18px;
+				padding:5px;
+				width:100%;}
 	
 		.login-caixa input[type="button"]:hover{
-			background-image: linear-gradient(to right, blue, #4C78AB);
-			transition-timing-function: linear;}
+			background-image:linear-gradient(to right, blue, #4C78AB);
+			transition-timing-function:linear; -webkit-transition-timing-function:linear; -moz-transition-timing-function:linear; -o-transition-timing-function:linear;}
 	
 	.container{
 		position:relative;
@@ -78,12 +75,12 @@ body{
 	
 		.container .section{
 			background-color:#000;
-			filter:brightness(75%);
+			filter:brightness(75%); -webkit-filter:brightness(75%);
 			height:100vh;
-			position:sticky;
+			position:sticky; /*Valor sticky ñ roda no IE ou edge < versão 15*/
 			top:0;
 			width:100%;
-			background-size:cover;}
+			background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover;}
 	
 			.container .section:nth-child(1){
 				background:url(img/mark-c-nappy-.jpg);}
