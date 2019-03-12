@@ -56,6 +56,7 @@ body{
 				outline:none;			
 				white-space:80px;}
 	
+<<<<<<< HEAD
 		.login-caixa input[type="button"]{
 				background:none;
 				border:2px solid #4C78AB;
@@ -68,6 +69,20 @@ body{
 		.login-caixa input[type="button"]:hover{
 			background-image:linear-gradient(to right, blue, #4C78AB);
 			transition-timing-function:linear; -webkit-transition-timing-function:linear; -moz-transition-timing-function:linear; -o-transition-timing-function:linear;}
+=======
+.login-caixa input[type="button"]{
+		background:none;
+		border: 2px solid #4C78AB;
+		color:white;
+		cursor:pointer;
+		font-size:18px;
+		padding:5px;
+		width:100%;}
+	
+		.login-caixa input[type="button"]:hover{
+			background-image: linear-gradient(to right, blue, #4C78AB);
+			transition-timing-function: linear;}
+>>>>>>> gh-pages
 	
 	.container{
 		position:relative;
@@ -95,4 +110,9 @@ body{
 				background:url(img/tolu-bamwo-nappy-.jpg);}
 				
 			.container .section:nth-child(5){
+<<<<<<< HEAD
 				background:url(img/vaycarious-nappy-.jpg);}
+=======
+				background:url(img/vaycarious-nappy-.jpg);
+				background-size:cover;}
+>>>>>>> gh-pages
