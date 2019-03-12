@@ -1,5 +1,5 @@
 <h1>Validação Jquery e efeito css no background</h1>
-<p>O projeto consiste em mostrar um validador para formulários simples feito com jquery. E um efeito de rolagem bem legal com as múltiplas imagens de fundo do site.</p>
+<p>O projeto consiste em mostrar um validador para formulários simples feito com jquery. E um efeito de rolagem bem legal com as múltiplas imagens de fundo do site.  Vale ressaltar que o foco deste repositório não é mostrar responsividade, logo as configurações dele podem não ficar adequadas caso você acesse por um dispositivo menor que 900px de largura.</p>
 <br>
 <strong>Jquery - Formulário</strong>
 <p>É executado uma função que verifica se os campos (inputs da página) estão preenchidos. Através da função each() é verificado se cada um dos campos do formulário está vazio. Se estiver é aplicado uma borda vermelha e é indicado uma mensagem através da variável msg1 que acessa a classe da div (.mgs1). Esta mensagem é impressa através do elemento innerHTML.</p>
