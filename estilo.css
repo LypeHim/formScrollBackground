@@ -9,13 +9,13 @@ body{
 		border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
 		color:white;
 		filter:opacity(75%); -webkit-filter:opacity(75%);
-		left:50%;
-		min-width:280px;
+		left:50%;		
 		padding:15px;		
 		position:fixed;
 		top:50%;		
 		transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%);		
-		z-index:9999;}
+		z-index:9999;
+		width:280px;}
 		
 		div.msg1, div.msg2{			
 			display:inline;
@@ -56,7 +56,6 @@ body{
 				outline:none;			
 				white-space:80px;}
 	
-<<<<<<< HEAD
 		.login-caixa input[type="button"]{
 				background:none;
 				border:2px solid #4C78AB;
@@ -69,7 +68,7 @@ body{
 		.login-caixa input[type="button"]:hover{
 			background-image:linear-gradient(to right, blue, #4C78AB);
 			transition-timing-function:linear; -webkit-transition-timing-function:linear; -moz-transition-timing-function:linear; -o-transition-timing-function:linear;}
-=======
+
 .login-caixa input[type="button"]{
 		background:none;
 		border: 2px solid #4C78AB;
@@ -82,7 +81,6 @@ body{
 		.login-caixa input[type="button"]:hover{
 			background-image: linear-gradient(to right, blue, #4C78AB);
 			transition-timing-function: linear;}
->>>>>>> gh-pages
 	
 	.container{
 		position:relative;
@@ -110,9 +108,4 @@ body{
 				background:url(img/tolu-bamwo-nappy-.jpg);}
 				
 			.container .section:nth-child(5){
-<<<<<<< HEAD
 				background:url(img/vaycarious-nappy-.jpg);}
-=======
-				background:url(img/vaycarious-nappy-.jpg);
-				background-size:cover;}
->>>>>>> gh-pages
