@@ -10,11 +10,11 @@ body{
 		color:white;
 		filter:opacity(75%); -webkit-filter:opacity(75%);
 		left:50%;
+		min-width:280px;
 		padding:15px;		
 		position:fixed;
 		top:50%;		
-		transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%);
-		width:280px;
+		transform:translate(-50%,-50%); -webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%); -moz-transform:translate(-50%,-50%); -o-transform:translate(-50%,-50%);		
 		z-index:9999;}
 		
 		div.msg1, div.msg2{			
